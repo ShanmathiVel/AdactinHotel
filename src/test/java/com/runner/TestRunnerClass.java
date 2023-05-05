@@ -14,7 +14,7 @@ import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(tags ="", snippets = SnippetType.CAMELCASE, 
+@CucumberOptions(tags ="@SearchHotel", snippets = SnippetType.CAMELCASE, 
 publish = true, dryRun = false, monochrome = true, 
 stepNotifications = true, plugin = {
 "pretty","json:target\\Output.json" }, glue = "com.stepdefinition", features = "src\\test\\resources\\Features")

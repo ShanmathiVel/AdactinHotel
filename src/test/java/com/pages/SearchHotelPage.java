@@ -43,7 +43,7 @@ public class SearchHotelPage extends BaseClass {
 	
 	
 	
-	
+
 	public WebElement getTxtSelectMsg() {
 		return txtSelectMsg;
 	}

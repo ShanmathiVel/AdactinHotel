@@ -36,7 +36,7 @@ public class HooksClass extends BaseClass {
 		if(scenario.isFailed()) {
 			scenario.attach(screenshot(), "sample.png", "Every after scenario");
 		}
-		//quit();
+		quit();
 	}
 
 }

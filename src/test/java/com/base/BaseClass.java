@@ -409,5 +409,9 @@ return firstSelectedOption;
 		elementVisibility(element);
 		element.clear();
 	}
+	public void clear1(WebElement element) {
+		elementVisibility(element);
+		element.clear();
+	}
 
 }

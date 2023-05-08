@@ -409,5 +409,10 @@ return firstSelectedOption;
 		elementVisibility(element);
 		element.clear();
 	}
-
+    public void scrollDown(WebElement element) {
+    	elementVisibility(element);
+    	JavascriptExecutor js = (JavascriptExecutor)driver;
+    	js.executeScript("arguments[0].scrollIntoView(true)",element);
+    	
+    }
 }

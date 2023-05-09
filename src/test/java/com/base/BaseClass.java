@@ -422,5 +422,9 @@ return firstSelectedOption;
     	js.executeScript("arguments[0].scrollIntoView(true)",element);
     	
     }
-
+    public void selectingDate(WebElement element1,WebElement element2) throws InterruptedException {
+   	 elementClick(element1);
+   	 Thread.sleep(2000);
+   	 elementClick(element2);
+   }
 }

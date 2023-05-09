@@ -422,6 +422,11 @@ return firstSelectedOption;
     	js.executeScript("arguments[0].scrollIntoView(true)",element);
     	
     }
+    public void selectingDate(WebElement element1,WebElement element2) throws InterruptedException {
+   	 elementClick(element1);
+   	 Thread.sleep(2000);
+   	 elementClick(element2);
+   }
     public void selectingDeptPerson(WebElement element,WebElement element1,String data,WebElement element2,WebElement element3,WebElement element4) throws InterruptedException {
     	 elementClick(element);
     	 Thread.sleep(4000);

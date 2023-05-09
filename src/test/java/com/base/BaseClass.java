@@ -427,4 +427,12 @@ return firstSelectedOption;
    	 Thread.sleep(2000);
    	 elementClick(element2);
    }
+    public void selectingDeptPerson(WebElement element,WebElement element1,String data,WebElement element2,WebElement element3,WebElement element4) throws InterruptedException {
+    	 elementClick(element);
+    	 Thread.sleep(4000);
+    	 elementSendkeys(element1, data);
+    	 elementClick(element2);
+    	 elementClick(element3);
+    	 elementClick(element4);
+    	}
 }
